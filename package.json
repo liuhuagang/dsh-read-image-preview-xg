@@ -1,0 +1,41 @@
+{
+  "name": "dsh-read-image-preview-xg",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "DSH plugin: inline preview of images read by the read_image tool — a keyed read_image toolview with a bounded thumbnail (click to open a full-size lightbox), resolved through the session-authorized attachment URL path.",
+  "main": "lib/index.js",
+  "types": "lib/types/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./lib/types/index.d.ts",
+      "default": "./lib/index.js"
+    },
+    "./client": {
+      "default": "./lib/client.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib/index.js",
+    "lib/logic.js",
+    "lib/client.js",
+    "lib/types/**/*.d.ts"
+  ],
+  "dsh": {
+    "client": {
+      "platform": "web"
+    }
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node --test tests/logic.spec.mjs"
+  },
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "*",
+    "react": "*"
+  },
+  "devDependencies": {
+    "typescript": "^5"
+  }
+}
