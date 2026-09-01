@@ -1,5 +1,9 @@
 # dsh-read-image-preview-xg
 
+<div align="center">
+  <sub><b>简体中文</b> | <a href="README_EN.md">English</a></sub>
+</div>
+
 DSH 插件：`read_image` 工具调用结果**内联图片预览**。
 
 模型调用 `read_image` 后，聊天里原本只显示一行"Read image <路径>"和拍平后的
