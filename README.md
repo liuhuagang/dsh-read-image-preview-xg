@@ -1,8 +1,6 @@
 # dsh-read-image-preview-xg
 
-<div align="center">
-  <sub><b>简体中文</b> | <a href="README_EN.md">English</a></sub>
-</div>
+**简体中文** · [English](README_EN.md)
 
 DSH 插件：`read_image` 工具调用结果**内联图片预览**。
 

@@ -1,8 +1,6 @@
 # dsh-read-image-preview-xg
 
-<div align="center">
-  <sub><a href="README.md">简体中文</a> | <b>English</b></sub>
-</div>
+[简体中文](README.md) · **English**
 
 DSH plugin: **inline image preview** for the `read_image` tool call result.
 
